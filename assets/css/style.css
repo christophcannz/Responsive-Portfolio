@@ -1,0 +1,211 @@
+body {
+    background-image: url("../images/purty_wood.png");
+    height: 770px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin:0px;
+}
+
+.container {
+    width: 100%;
+    height: 100px;
+    max-width: 3000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: wheat;
+    border-bottom: tomato;
+    border-style: solid;
+    border-width: 1.5px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.container-head {
+    position: static;
+    width: 960px;
+    justify-content: space-between;
+}
+.header {
+    background-color: tomato;
+    color: wheat;
+    float: left;
+    width: 250px;
+    height: 100px;
+    font-size: 15px;
+    text-align: center;
+}
+h1 {
+    margin: 15px;
+}
+
+#nav ul {
+    list-style-type: none;
+    float: right;
+    text-align: right;
+    padding-top: 20px;
+    position: static;
+}
+
+#nav ul li {
+    display: inline;
+    /* border-right: solid thin grey; */
+    margin-right: 10px;
+    padding-right: 10px;
+    color: tomato;
+    font-weight: bold;
+}
+
+.right-line {
+    border-right: 1px solid tomato;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: tomato;
+}
+
+a:visited {
+    color: tomato;
+}
+
+
+h3 {
+    display: block;
+    font-size: 25px;
+    color: tomato;
+    margin-left: 30px;
+    padding-top: 30px;
+}
+
+.container-mid {
+    width: 1500px;
+    height: 555px;
+    max-width: 1000px;
+}
+
+.container-mid img {
+    width: 220px;
+    float: left;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.separator {
+    background-color: tomato;
+    width: 900px;
+    height: 5px;
+    margin: 30px
+}
+
+#display {
+    background-color: wheat;
+    width: 960px;
+    height: 530px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    float: right;
+    clear: none;
+    color: tomato;
+    padding-right: 60px;
+}
+ 
+img {
+    padding: 5px;
+    width: 200px;
+ }
+ 
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    align-content: center;
+}
+
+label {
+    float: left;
+    width: 150px;
+    text-align: right;
+    padding-right: 12px;
+    margin-top: 12px;
+    clear: left;
+
+}
+
+.row1,
+.row2 {
+   display: flex;
+   justify-content: center;
+   width: 960px;
+}
+ 
+footer {
+    background-color: tomato;
+    color: wheat;
+    width: 100%;
+    height: 75px;
+    text-align: center;
+    position: static;
+    bottom:0;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+h4 {
+    text-align: center;
+    padding-top: 45px;
+}
+
+/* could not get my portfolio photos to be resposnive with the smaller px sizes */
+@media screen and (max-width: 640px) {
+    .container-head {
+        position: static;
+    }
+    .header {
+        position: static;
+    }
+    #display {
+        width: 100%;
+        height: 120%;
+    }
+    .separator {
+        width: 38%;
+    }
+    .container-mid img {
+        position: static;
+        width: 100%;
+    }
+
+    p {
+        font-size: 12pt;
+        position: absolute;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+    footer {
+        position: static;
+        bottom: 0;
+        clear: both;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 980px) {
+
+}
+
+
+
+
